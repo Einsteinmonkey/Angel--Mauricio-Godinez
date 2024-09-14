@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .foto-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .descripcion {
+            font-size: 1.2rem;
+            color: #777;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .experiencia .trabajo {
+            margin-bottom: 15px;
+        }
+
+        .trabajo h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .trabajo p {
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="foto-perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
+            <h1>Juan Pérez</h1>
+            <p class="descripcion">Desarrollador Web | Diseñador Gráfico | Apasionado por la tecnología</p>
+        </header>
+        
+        <section class="info-personal">
+            <h2>Información Personal</h2>
+            <ul>
+                <li><strong>Edad:</strong> 30 años</li>
+                <li><strong>Ubicación:</strong> Ciudad de México</li>
+                <li><strong>Email:</strong> juan.perez@email.com</li>
+            </ul>
+        </section>
+
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Diseño Responsive</li>
+                <li>Diseño Gráfico</li>
+                <li>WordPress, React</li>
+            </ul>
+        </section>
+
+        <section class="experiencia">
+            <h2>Experiencia</h2>
+            <div class="trabajo">
+                <h3>Desarrollador Web - Empresa XYZ</h3>
+                <p><em>Junio 2019 - Actualidad</em></p>
+                <p>Desarrollo de sitios web optimizados y con diseño responsive para múltiples dispositivos.</p>
+            </div>
+            <div class="trabajo">
+                <h3>Diseñador Gráfico - Agencia Creativa ABC</h3>
+                <p><em>Enero 2017 - Mayo 2019</em></p>
+                <p>Creación de diseños visuales para campañas publicitarias y branding corporativo.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Juan Pérez - Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
