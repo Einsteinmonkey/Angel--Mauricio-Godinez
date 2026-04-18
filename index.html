@@ -1,156 +1,178 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | KartzBattleRoyale</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
-  <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-logo-title-footer"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">KartzBattleRoyale</div>
-      </div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .foto-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .descripcion {
+            font-size: 1.2rem;
+            color: #777;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .experiencia .trabajo {
+            margin-bottom: 15px;
+        }
+
+        .trabajo h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .trabajo p {
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profilepic.jpeg.jpg" alt="Foto de Perfil" class="foto-perfil">
+            <h1>Angel Mauricio Godinez Pinto</h1>
+            <p class="descripcion">Sales and Business Development Profesional | Web/App Developer | Marketing Expert</p>
+        </header>
+        
+        <section class="info-personal">
+            <h2>Personal information</h2>
+            <ul>
+                <li><strong>Edad:</strong> 35 years old</li>
+                <li><strong>Ubicación:</strong> Cancun, Mexico</li>
+                <li><strong>Email:</strong> angelgodinez@mycaribbeandeals.com</li>
+            </ul>
+        </section>
+
+                <section class="Portfolio">
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="https://mycaribbeandeals.com/">My Caribbean Deals</a></li>
+                <li><a href="https://caboparadisetours.com">Cabo Paradise Tours</a></li>
+                <li><a href="https://sirfixit.com/">Sirfixit</a></li>
+                <li><a href="https://tacolocoga.com/">Taco Loco</a></li>
+                <li><a href="https://www.cleanwithmagnolia.com">Magnolia Cleaning Company</a></li>
+                <li><a href="https://primehavencapital.com/">Prime Haven Capital</a></li>
+                <li><a href="https://vallartavacationtours.com/">Vallarta Vacation Tours</a></li>
+                <li><a href="https://angelfencescorp.com/" target="_blank">Angel Fences Corp</a></li>
+                <li><a href="https://zoomar8.com/">ZooMar8</a></li>
+                <li><a href="https://evaz.mx/">Evaz</a></li>
+                <li><a href="https://yucatanis.com/">Yucatanis</a></li>
+            </ul>
+        </section>
+
+        <section class="habilidades">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript, PHP, SQL, Java, Javascript, C#, C++, Python</li>
+                <li>Responsive Designs</li>
+                <li>Graphic Design</li>
+                <li>WordPress</li>
+                <li>Hubspot, Outreach, Lead Generation Expert</li>
+                <li>Cold Calling, email blasting, social media prospecting</li>
+            </ul>
+        </section>
+
+        <section class="experiencia">
+            <h2>Experience</h2>
+            <div class="trabajo">
+                <h3>Director of IT - Prime Haven Capital</h3>
+                <p><em>September 2024 - Current</em></p>
+                <p>Prospect and close new qualified leads in the US real estate market</p>
+            </div>
+            <div class="trabajo">
+                <h3>Business Development Expert - Serviap Global</h3>
+                <p><em>January 2023 - January 2024</em></p>
+                <p>Prospect and close new qualified leads in the US,Canada and LATAM markets to help companies expand to new markets and hire remote talent.</p>
+            </div>
+                <div class="trabajo">
+                <h3>Business Development Expert - Globalization Partners</h3>
+                <p><em>June 2022 - November 2022</em></p>
+                <p>Prospect and close new qualified leads in the US and Canada markets to help companies expand to new markets and hire remote talent.</p>
+            </div>
+                 <div class="trabajo">
+                <h3>Sales and Customer Service Representative - AmstarDMC</h3>
+                <p><em>August 2012 - August 2017</em></p>
+                <p>Assist tourist traveling in Cancun though the travel agency with anything they needed and also to set up their tours and activities during their stay.</p>
+            </div>
+                            <div class="trabajo">
+                <h3>English Teacher - Interlingua</h3>
+                <p><em>August 2011 - August 2012</em></p>
+                <p>Gave professional English classes to adults in different professional industries</p>
+            </div>
+                 <div class="trabajo">
+                <h3>Customer Service Representative -Dish Satelite Network</h3>
+                <p><em>July 2010 - July 2011</em></p>
+                <p>Assisted clients with issues reguarding billing, questions and technical support</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Angel Mauricio Godinez Pinto - All Rights Reserved</p>
+        </footer>
     </div>
-    <script>
-      var canvas = document.querySelector("#unity-canvas");
-
-      // Shows a temporary message banner/ribbon for a few seconds, or
-      // a permanent error message on top of the canvas if type=='error'.
-      // If type=='warning', a yellow highlight color is used.
-      // Modify or remove this function to customize the visually presented
-      // way that non-critical warnings and error messages are presented to the
-      // user.
-      function unityShowBanner(msg, type) {
-        var warningBanner = document.querySelector("#unity-warning");
-        function updateBannerVisibility() {
-          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-        }
-        var div = document.createElement('div');
-        div.innerHTML = msg;
-        warningBanner.appendChild(div);
-        if (type == 'error') div.style = 'background: red; padding: 10px;';
-        else {
-          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
-        }
-        updateBannerVisibility();
-      }
-
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/KBR.loader.js";
-      var config = {
-        arguments: [],
-        dataUrl: buildUrl + "/KBR.data",
-        frameworkUrl: buildUrl + "/KBR.framework.js",
-        codeUrl: buildUrl + "/KBR.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "KartzBattleRoyale",
-        productName: "KartzBattleRoyale",
-        productVersion: "0.1.0",
-        showBanner: unityShowBanner,
-      };
-
-      // By default, Unity keeps WebGL canvas render target size matched with
-      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-      // Set this to false if you want to decouple this synchronization from
-      // happening inside the engine, and you would instead like to size up
-      // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
-
-      // If you would like all file writes inside Unity Application.persistentDataPath
-      // directory to automatically persist so that the contents are remembered when
-      // the user revisits the site the next time, uncomment the following line:
-      // config.autoSyncPersistentDataPath = true;
-      // This autosyncing is currently not the default behavior to avoid regressing
-      // existing user projects that might rely on the earlier manual
-      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
-      // expected to change.
-
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
-        document.querySelector("#unity-container").className = "unity-mobile";
-        canvas.className = "unity-mobile";
-
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
-
-
-      } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
-      }
-
-      document.querySelector("#unity-loading-bar").style.display = "block";
-
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
-              }).then((unityInstance) => {
-                document.querySelector("#unity-loading-bar").style.display = "none";
-                document.querySelector("#unity-fullscreen-button").onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-
-                // Unloading web content from DOM so that browser GC can run can be tricky to get right.
-                // This code snippet shows how to correctly implement a Unity content Unload mechanism to a web page.
-
-                // Unloading Unity content enables a web page to reclaim the memory used by Unity, e.g. for
-                // the purpose of later loading another Unity content instance on the _same_ web page.
-
-                // When using this functionality, take caution to carefully make sure to clear all JavaScript code,
-                // DOM element and event handler references to the old content you may have retained, or
-                // otherwise the browser's garbage collector will be unable to reclaim the old page.
-
-                // N.b. Unity content does _not_ need to be manually unloaded when the user is navigating away from
-                // the current page to another web page. The browser will take care to clear memory of old visited
-                // pages automatically. This functionality is only needed if you want to switch between loading
-                // multiple Unity builds on a single web page.
-                var quit = document.createElement("button");
-                quit.style = "margin-left: 5px; background-color: lightgray; border: none; padding: 5px; cursor: pointer";
-                quit.innerHTML = "Unload";
-                document.querySelector("#unity-build-title").appendChild(quit);
-                quit.onclick = () => {
-                  // Quit Unity application execution
-                  unityInstance.Quit().then(() => {
-                    // Remove DOM elements from the page so GC can run
-                    document.querySelector("#unity-container").remove();
-                    canvas = null;
-                    // Remover script elements from the page so GC can run
-                    script.remove();
-                    script = null;
-                  });
-                };
-              }).catch((message) => {
-                alert(message);
-              });
-            };
-
-      document.body.appendChild(script);
-
-    </script>
-  </body>
+</body>
 </html>
